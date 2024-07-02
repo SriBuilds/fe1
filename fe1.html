@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOLF</title>
+  <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" /> <!-- Recommended -->
+  <link rel="stylesheet" href="fe1.css">
+</head>
+<body>
+  <div id="main">
+    <div id="back">
+      <img src="IFE1.jpg" alt="">
+      <img src="IFE2.jpg" alt="">
+      <img src="IFE3.jpg" alt="">
+      <img src="IFE4.jpg" alt="">
+      <img src="IFE5.jpg" alt="">
+    </div>
+    <div id="top">
+      <div id="nav">
+        <div id="logo">
+       <a href="fe1.html" style="text-decoration: none; color: gold; height: 60px;"> GOLF</a>
+        </div>
+        <div id="nright">
+         <a href="fe1shopall.html">Shop All</a>
+         <a href="fe1feat.html">Concepts</a>
+         <a href="#">Cart</a>
+         <a href="#">Login</a>
+        </div>
+   </div>
+       <div id="sidel" style="height: 820px;position: fixed; width: 10px; background-color: black; color: aliceblue; ">
+        
+       </div>
+       <div id="sider" style="height: 820px;position: fixed; width: 10px; background-color: black; color: aliceblue; margin-left: 1430px;">
+       
+       </div>
+       <div id="footer">
+         <hr style="margin-top: 10px; opacity: 0.5;"> 
+          <h3 style="text-align: center; color: white; font-weight: bold; margin-top: 9px;font-weight: 600;
+  
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">SCROLL!</h3>
+          <hr style="margin-top: 10px; opacity: 0.5;">
+          <h3 style="color: white; text-align: center; margin-top: 10PX;font-weight: 600;
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">STORES</h3><hr style="margin-top: 10px; opacity: 0.5;">
+          <div class="stores" style="display: flex; justify-content: space-around;font-weight: 400;">
+          <div id="s1" style="margin-top: 20px;">
+          <img src="s1.jpg" style="margin-left: 10px;height: 350px; width: 350px;border-radius: 50%;"  alt="">
+          <div id="loc" style="opacity: 0.8; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: aliceblue;margin-left: 10px; text-align: center;">
+            GOLF WANG LA <br>
+350 N. FAIRFAX AVE<br>
+LOS ANGELES, CA
+          </div>
+          </div>
+          <div id="s2" style="margin-top: 20px;">
+          <img src="s2.jpg" style="margin-left: 10px;height: 350px; width: 350px;border-radius: 50%;"  alt="">
+          <div id="loc" style="opacity: 0.8;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: aliceblue;margin-left: 10px;text-align: center;transition: transform .2s;">
+            GOLF WANG NYC<br>
+35 HOWARD ST<br>
+NEW YORK, NY
+          </div>
+          </div>
+          <div id="s3" style="margin-top: 20px;">
+          <img src="https://golfwang.com/cdn/shop/files/london2_1080x.jpg?v=1697908961" style="margin-left: 10px;height: 350px; width: 350px;border-radius: 50%;"  alt="">
+          <div id="loc" style="opacity: 0.8;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;color: aliceblue;margin-left: 10px;; text-align: center;">
+              GOLF WANG LONDON<br>
+              57-59 BEAK STREET<br>
+              LONDON, UK
+          </div>
+          </div>
+         </div>
+          <hr style="margin-top: 10px; opacity: 0.5;">
+          <div class="btmnav" style="display: flex;">
+            <div id="btleft">
+              <h1 style="color: gold;margin-top: 1vh; font-weight: bolder; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 1VW; font-size: 125px; ">GOLF</h1>
+              <P style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; margin-left: 1.6VW; color: #ffffff;">© 2024 GOLF, ALL RIGHTS RESERVED.</P>    
+            </div>
+            <div id="btrightm" style="margin-left:730px ;  color: white;font-weight: 400;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.7;">
+              <p style="margin-top: 5vh;">
+                HELP <br>
+                MEMBERS LOGIN <br>
+                EXCHANGES/RETURNS <br>
+                FAQ <br>
+                TERMS <br>
+                SHIPPING <br>
+              </p>
+            </div>
+            <div id="btrighte" style="margin-left:80px ;  color: white;font-weight: 400;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; opacity: 0.7;">
+              <p style="margin-top: 5vh;">
+                COMPANY <br>
+                STORY <br>
+                CAREERS <br>
+                CONTACT US <br>
+              </p>
+            </div>
+          </div>
+         </div>
+    </div>
+  </div>
+  <!--  Gsap is needed for Basic Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+<!-- Scroll Trigger is needed for Scroll Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+<!-- Three.js is needed for 3d Effects -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+
+<!-- ControlKit is needed for Debug Panel -->
+<script src="https://cdn.jsdelivr.net/gh/automat/controlkit.js@master/bin/controlKit.min.js"></script>
+<!-- Recommended -->
+<script  type="text/javascript"  src="https://unpkg.com/sheryjs/dist/Shery.js"></script> <!-- Recommended -->
+<script src="script.js"></script>
+</body>
+</html>
